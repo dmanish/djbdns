@@ -89,6 +89,13 @@ static void name(const char *q)
   }
 }
 
+void log_func_name(const char *file_name,const char *func_name)
+{
+  string("MD : ");
+  string(file_name); string("::");string(func_name);
+  line();
+}
+
 void log_startup(void)
 {
   string("starting");

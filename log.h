@@ -8,6 +8,7 @@
 char output[1000];
 
 extern void log_startup(void);
+extern void log_func_name(const char*,const char *);
 
 extern void log_query(uint64 *,const char *,unsigned int,const char *,const char *,const char *);
 extern void log_querydrop(uint64 *);

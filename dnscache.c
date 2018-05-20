@@ -316,6 +316,7 @@ static void doit(void)
   struct taia stamp;
   int iolen;
   int r;
+  log_func_name(__FILE__, __func__);
 
   for (;;) {
     taia_now(&stamp);
